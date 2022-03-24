@@ -1,0 +1,53 @@
+BOARD=hi6250
+CPU_ABI2=
+HOST=cn-east-2a-a1e466dbf1594667271088-2128115467-q51t0
+versionName=1.0
+IS_TREBLE_ENABLED=true
+SUPPORTED_64_BIT_ABIS=[Ljava.lang.String;@c404a8b
+CPU_ABI=arm64-v8a
+PERMISSIONS_REVIEW_REQUIRED=false
+IS_USERDEBUG=false
+DISPLAY=PRA-AL00 8.0.0.355(C00)
+SUPPORTED_ABIS=[Ljava.lang.String;@984768
+FINGERPRINTEX=HONOR/PRA-AL00/HWPRA-H:8.0.0/HONORPRA-AL00/362(C00):user/release-keys
+FINGERPRINT=HONOR/PRA-AL00/HWPRA-H:8.0.0/HONORPRA-AL00/355(C00):user/release-keys
+PRODUCT=PRA-AL00
+HIDE_PRODUCT_INFO=false
+ID=HONORPRA-AL00
+HWFINGERPRINT=//
+TYPE=user
+SERIAL=HMKNW17511006419
+NO_HOTA=false
+IS_CONTAINER=false
+IS_ENG=false
+DEVICE=HWPRA-H
+TIME=1594710453000
+IS_USER=true
+MODEL=PRA-AL00
+MANUFACTURER=HUAWEI
+USER=test
+versionCode=1
+BRAND=HONOR
+SUPPORTED_32_BIT_ABIS=[Ljava.lang.String;@eb5a85a
+HARDWARE=hi6250
+IS_DEBUGGABLE=false
+BOOTLOADER=unknown
+RADIO=unknown
+UNKNOWN=unknown
+IS_EMULATOR=false
+TAGS=release-keys
+
+------------Crash Log Begin--------------
+java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.TextView.setText(java.lang.CharSequence)' on a null object reference
+	at com.zz.crashhelper.TwoActivity$1.onClick(TwoActivity.java:19)
+	at android.view.View.performClick(View.java:6291)
+	at android.view.View$PerformClick.run(View.java:24931)
+	at android.os.Handler.handleCallback(Handler.java:808)
+	at android.os.Handler.dispatchMessage(Handler.java:101)
+	at android.os.Looper.loop(Looper.java:166)
+	at android.app.ActivityThread.main(ActivityThread.java:7529)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:245)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:921)
+
+------------Crash Log End--------------
